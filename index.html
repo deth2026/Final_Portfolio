@@ -342,35 +342,211 @@
 </section>
 
     <!-- ==================== CONTACT SECTION ==================== -->
-    <section id="contact" class="py-20 bg-[#0A1628]">
-        <div class="max-w-4xl mx-auto px-6">
-            <div class="text-center mb-12">
-                <h2 class="text-5xl font-bold tracking-tighter">Get In Touch</h2>
-                <div class="line"></div>
-                <p class="text-gray-400 mt-4">I'm always open to new opportunities and interesting projects.</p>
-            </div>
-
-            <div class="bg-[#13213A] rounded-3xl p-10">
-                <form class="space-y-6">
-                    <div class="grid md:grid-cols-2 gap-6">
-                        <input type="text" placeholder="Your Name" class="bg-[#1E2937] border border-transparent focus:border-blue-500 rounded-2xl px-6 py-4 outline-none">
-                        <input type="email" placeholder="Your Email" class="bg-[#1E2937] border border-transparent focus:border-blue-500 rounded-2xl px-6 py-4 outline-none">
-                    </div>
-                    <input type="text" placeholder="Subject" class="bg-[#1E2937] border border-transparent focus:border-blue-500 rounded-2xl px-6 py-4 outline-none w-full">
-                    <textarea placeholder="Your Message" rows="6" class="bg-[#1E2937] border border-transparent focus:border-blue-500 rounded-2xl px-6 py-4 outline-none w-full resize-none"></textarea>
-                    
-                    <button type="button" onclick="alert('Thank you! Your message has been sent. (Demo)')"
-                            class="w-full bg-blue-500 hover:bg-blue-600 py-5 rounded-3xl font-semibold text-lg transition">
-                        Send Message
-                    </button>
-                </form>
-            </div>
-
-            <!-- <div class="text-center mt-10 text-gray-400">
-                Or reach me directly at: <a href="https://t.me/solydeth" class="text-blue-400 hover:underline">t.me/solydeth</a>
-            </div> -->
+   <!-- ==================== CONTACT SECTION ==================== -->
+<section id="contact" class="py-20 bg-[#0A1628]">
+    <div class="max-w-5xl mx-auto px-6">
+        <div class="text-center mb-12">
+            <h2 class="text-5xl font-bold tracking-tighter">Get In Touch</h2>
+            <div class="line"></div>
+            <p class="text-gray-400 mt-4">I'm always open to new opportunities and interesting projects.</p>
         </div>
-    </section>
+
+        <div class="bg-[#13213A] rounded-3xl overflow-hidden">
+            <div class="grid md:grid-cols-2">
+
+                <!-- Left Side - Contact Info -->
+                <div class="p-10 border-r border-gray-800">
+                    <h3 class="text-2xl font-semibold mb-8">Contact Info</h3>
+                    
+                    <div class="space-y-7">
+                        <!-- Email -->
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 bg-blue-500/10 text-blue-400 rounded-2xl flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <p class="text-gray-400 text-sm">Email</p>
+                                <a href="mailto:sreydeth.khon@student.passerellesnumeriques.org" 
+                                   class="text-white hover:text-blue-400 transition break-words">
+                                    sreydeth.khon@student.passerellesnumeriques.org
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Phone -->
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 bg-blue-500/10 text-blue-400 rounded-2xl flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <p class="text-gray-400 text-sm">Phone</p>
+                                <a href="tel:+855963626354" 
+                                   class="text-white hover:text-blue-400 transition">
+                                    +855 96 362 6354
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Address -->
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 bg-blue-500/10 text-blue-400 rounded-2xl flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <p class="text-gray-400 text-sm">Location</p>
+                                <p class="text-white text-sm">
+                                    BP 511, Phum Tropeang Chhuk Sangtak,<br>
+                                    Street 371, Phnom Penh
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Social Handles -->
+                    <div class="mt-10">
+                        <h3 class="text-2xl font-semibold mb-5">Social Handles</h3>
+                        <div class="flex flex-wrap gap-3">
+                            <a href="https://www.linkedin.com/in/sreydeth-khon-2b96913a0/" target="_blank"
+                               class="flex items-center gap-3 bg-[#1E2937] hover:bg-[#2A3A4F] px-5 py-3.5 rounded-2xl transition text-sm">
+                                <i class="fab fa-linkedin-in text-blue-400"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https://github.com/deth2026" target="_blank"
+                               class="flex items-center gap-3 bg-[#1E2937] hover:bg-[#2A3A4F] px-5 py-3.5 rounded-2xl transition text-sm">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://t.me/solydeth" target="_blank"
+                               class="flex items-center gap-3 bg-[#1E2937] hover:bg-[#2A3A4F] px-5 py-3.5 rounded-2xl transition text-sm">
+                                <i class="fab fa-telegram text-blue-400"></i>
+                                <span>Telegram</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side - Contact Form -->
+                <div class="p-10">
+                    <h3 class="text-2xl font-semibold mb-6">Send Me a Message</h3>
+                    
+                    <form class="space-y-6">
+                        <input type="text" placeholder="Your Name" 
+                               class="w-full bg-[#1E2937] border border-transparent focus:border-blue-500 rounded-2xl px-6 py-4 outline-none">
+
+                        <input type="email" placeholder="Your Email" 
+                               class="w-full bg-[#1E2937] border border-transparent focus:border-blue-500 rounded-2xl px-6 py-4 outline-none">
+
+                        <textarea placeholder="Your Message" rows="6"
+                                  class="w-full bg-[#1E2937] border border-transparent focus:border-blue-500 rounded-2xl px-6 py-4 outline-none resize-none"></textarea>
+
+                        <button type="button" 
+                                onclick="alert('Thank you! Your message has been sent. (Demo)')"
+                                class="w-full bg-blue-600 hover:bg-blue-700 py-4 rounded-2xl font-semibold text-lg transition">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="bg-[#0A1628] border-t border-gray-800 py-12">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-3 gap-10">
+
+                <!-- Left: Profile -->
+                <div>
+                    <img src="photo/myphoto.png" 
+                        alt="Sreydeth Khon" 
+                        class="w-24 h-24 rounded-3xl object-cover border-4 border-blue-500 mb-4">
+
+                    <h3 class="text-2xl font-bold tracking-tighter mb-2">Deth.</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-6">
+                        Passionate Full-Stack Developer building exceptional digital experiences.
+                    </p>
+                    
+                    <div class="flex gap-4">
+                        <a href="https://www.linkedin.com/in/sreydeth-khon-2b96913a0/" target="_blank"
+                        class="w-11 h-11 bg-blue-500 hover:bg-blue-600 rounded-2xl flex items-center justify-center text-2xl transition-all text-white">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/deth2026" target="_blank"
+                        class="w-11 h-11 bg-gray-700 hover:bg-gray-600 rounded-2xl flex items-center justify-center text-2xl transition-all text-white">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://t.me/solydeth" target="_blank"
+                        class="w-11 h-11 bg-blue-400 hover:bg-blue-500 rounded-2xl flex items-center justify-center text-2xl transition-all text-white">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Center: Quick Links -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#home" class="hover:text-blue-400 transition">Home</a></li>
+                        <li><a href="#about" class="hover:text-blue-400 transition">About Me</a></li>
+                        <li><a href="#projects" class="hover:text-blue-400 transition">Projects</a></li>
+                        <li><a href="#skills" class="hover:text-blue-400 transition">Skills</a></li>
+                        <li><a href="#contact" class="hover:text-blue-400 transition">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Right: Contact -->
+            <div>
+        <h4 class="text-lg font-semibold mb-4">Get In Touch</h4>
+        
+        <div class="space-y-4">
+            <!-- Email -->
+            <div class="flex items-start gap-3">
+                <div class="w-8 h-8 bg-blue-500/10 text-blue-400 rounded-xl flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div>
+                    <p class="text-gray-400 text-sm">
+                        sreydeth.khon@student.passerellesnumeriques.org
+                    </p>
+                </div>
+            </div>
+
+            <!-- Phone -->
+            <div class="flex items-start gap-3">
+                <div class="w-8 h-8 bg-blue-500/10 text-blue-400 rounded-xl flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <div>
+                    <p class="text-gray-400 text-sm">
+                        +855 96 362 6354
+                    </p>
+                </div>
+            </div>
+
+            <!-- Address -->
+            <div class="flex items-start gap-3">
+                <div class="w-8 h-8 bg-blue-500/10 text-blue-400 rounded-xl flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div>
+                    <p class="text-gray-400 text-sm">
+                        BP 511, Phum Tropeang Chhuk Sangtak,<br>
+                        Street 371, Phnom Penh
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <a href="#contact" 
+        class="mt-8 inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-2xl text-sm font-medium transition">
+            <i class="fas fa-paper-plane"></i>
+            Say Hello
+        </a>
+    </div>
+    </div>
+    </footer>
 
     <script src="js/script.js"></script>
 </body>

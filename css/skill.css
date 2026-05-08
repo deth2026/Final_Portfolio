@@ -16,12 +16,12 @@
         .nav-link:hover {
             color: #60A5FA;
         }
-        .profile-circle {
+        /* .profile-circle {
             width: 380px;
             height: 380px;
             border-radius: 50%;
             background: linear-gradient(135deg, #1E40AF, #3B82F6);
-            padding: 15px;
+            
             box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.5);
         }
         .profile-circle img {
@@ -30,7 +30,7 @@
             object-fit: cover;
             border-radius: 50%;
             border: 8px solid #0A1628;
-        }
+        } */
         .skill-bar {
             height: 8px;
             background: #1E2937;

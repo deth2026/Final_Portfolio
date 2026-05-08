@@ -31,6 +31,14 @@ body {
     width: 100%;
 }
 
+.nav-link.active {
+    color: #60A5FA;
+}
+
+.nav-link.active:after {
+    width: 100%;
+}
+
 .profile-circle {
     margin-top: 100px;
     width: 400px;
